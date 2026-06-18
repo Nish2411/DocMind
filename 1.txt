@@ -1,0 +1,5 @@
+source venv/bin/activate
+
+
+ cd ~/Downloads/NotebookLLM/backend
+uvicorn main:app --reload --port 8000
